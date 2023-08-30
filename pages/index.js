@@ -33,13 +33,13 @@ export default function Home() {
         /> */}
     <Head>
           <title>CLEO Exteriors | Pressure Washing, Gutter Cleaning, & Window Cleaning</title>
-          <meta name="description" content="Cleo Exteriors "/>
+          <meta name="description" content="Cleo Exteriors is the most exceptional service in 2023."/>
           <meta charSet="utf-8" />
           <meta name="robots" content="index, follow" />
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
-          <link rel="icon" type="image/png" href="/goldshield-logo.webp" alt="Favicon" />
-          <link rel="apple-touch-icon" href="/goldshield-logo.webp" /> 
-          <link rel="canonical" href="https://goldshieldhomeinspection.com/"/>
+          <link rel="icon" type="image/png" href="/logo.png" alt="Favicon" />
+          <link rel="apple-touch-icon" href="/logo.png" /> 
+          <link rel="canonical" href="https://cleoexteriors.com/"/>
           <meta property="og:type" content="article" />
           <meta property="og:title" content="TITLE OF YOUR POST OR PAGE" />
           <meta property="og:description" content="DESCRIPTION OF PAGE CONTENT" />
