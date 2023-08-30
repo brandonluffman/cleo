@@ -1,0 +1,58 @@
+.town-all-locations-div {
+    display: inline-flex;
+    width:100%;
+}
+
+.fairfield-county-div, .litchfield-county-div {
+    margin:0rem 1rem;
+    width:100%;
+}
+
+.fairfield-county-div {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.location-hr {
+    width:30%;
+    margin: auto;
+    margin-bottom:1rem;
+    height: 1px;
+    background-color: rgb(186, 166, 97);
+    border: none;
+}
+
+.location-link {
+    transition: 0.1 ease all;
+}
+
+.location-link:hover {
+    cursor:pointer;
+    color: rgb(108, 108, 108);
+}
+
+.location-icon {
+    color:rgb(186, 166, 97);
+    margin-right:0.5rem;
+}
+
+.location-town {
+    font-weight:300;
+    text-align: left;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.county-locations {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr) ) ;
+}
+
+.fairfield-header, .litchfield-header {
+    font-size:1.3rem;
+}
+@media (max-width: 900px) {
+    .fairfield-county-div, .litchfield-county-div {
+        margin:0rem 0.5rem;
+        margin-bottom: 2rem;
+    }
+  }

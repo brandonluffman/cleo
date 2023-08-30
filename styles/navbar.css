@@ -1,0 +1,220 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    width:100%;
+    transition:0.3s all ease !important;
+    height:120px;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+}
+
+.scroll {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    width:100%;
+    transition:0.3s all ease !important;
+    height:100px;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 1px 5px 12px rgba(255, 255, 255, 0.05);
+    z-index:999999;
+}
+
+.fixed-top {
+    position: fixed;
+}
+
+#navbar {
+    transition:0.3s all ease !important;
+}
+
+#brand-img {
+    transition:0.35s all ease !important;
+    display: flex;
+    align-items: center;
+}
+
+#nav-brand-img {
+    transition: 0.35s all ease !important;
+    width:200px;
+    margin: 0rem 0rem 0rem 2rem;
+    transition:0.2s all ease;
+    z-index:-1 !important;
+}
+
+#brand-img:hover {
+    cursor:pointer;
+}
+
+.nav-menu {
+    position: fixed;
+    right: 100%;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    width: 50vw;
+    height:110vh;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    top:-20px;
+    padding-top:2rem;
+    padding-left:0rem;
+    color:white;
+}
+
+.nav-menu.active {
+    right: 0%;
+    top:0;
+    margin-top:2.5rem;
+    border-top:1px solid rgb(230,230,230);
+}
+
+.nav-menu-header {
+    color: rgb(170, 170, 170) !important;
+    font-size:1.2rem;
+}
+
+.nav-logo {
+    color: black;
+    display:flex;
+}
+.hamburger-btn {
+    font-size:2rem;
+    display: block !important;
+    margin:0.3rem 2rem 0rem 4rem;
+    z-index:999999;
+    transition:0.3s ease all;
+    
+}
+
+.hamburger-close-btn {
+
+}
+.hamburger-btn:hover {
+    cursor: pointer;
+}
+.nav-contact-btn {
+    background: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    box-shadow: 1px 8px 20px rgba(200,200,200,0.2);
+    border-radius: 40px;
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+    /* margin-left:6rem; */
+    transition:0.3s ease all;
+    border:none;
+    font-weight: 600;
+    color:rgb(186, 166, 97);
+}
+
+.nav-contact-btn:hover {
+    background: white;
+    color:black;
+    transform:translateY(-2px);
+    cursor: pointer;
+}
+.nav-buttons {
+    display: flex;
+}
+
+.nav-lang-btn {
+    background:none;
+    color:black;
+    border:none;
+}
+
+.nav-item {
+    margin: 3rem 0rem !important;
+    margin-left: 5rem;
+    transition:0.2s all ease;
+    display: block;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    transition:0.2s all ease;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+.nav-item-margin {
+    margin: 3rem 0rem 4rem 0rem !important;
+}
+.nav-item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.dropdown-contact-btn {
+    display: none;
+    background: black;
+    color:white;
+    box-shadow: 1px 8px 20px rgba(200,200,200,0.8);
+    border-radius: 40px;
+    border:1px solid white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    transition:0.3s ease all;
+}
+
+.dropdown-brand-img {
+    width:auto;
+}
+.nav-link:hover {
+    cursor:pointer;
+}
+.nav-item:nth-of-type(1) {
+    text-decoration: none !important;
+    cursor:pointer;
+}
+
+.absolute-ghost {
+    margin-top:1rem;
+    width:15%;
+}
+@media only screen and (max-width: 870px) {
+    .navbar {
+        padding: 0rem 2rem !important;
+    }
+
+    .brand-img {
+        margin: 0rem;
+    }
+
+    .hamburger-btn {
+        margin-right:0rem;
+    }
+
+    .nav-contact-btn, .nav-lang-btn {
+        display: none !important;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-contact-btn, .nav-lang-btn {
+        display: none !important;
+    }
+    .dropdown-contact-btn {
+        display: block !important;
+    }
+    .dropdown-brand-div {
+        display: flex;
+        justify-content: center;
+    }
+    .nav-menu {
+        width:70vw;
+    }
+    .nav-item {
+        font-size:1.5rem !important;
+    }
+
+    .scroll {
+        padding:0rem 1.5rem;
+    }
+
+    .absolute-ghost {
+    width:30%;
+    margin-top:1rem;
+    }
+}
