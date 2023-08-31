@@ -47,4 +47,26 @@
     .service-description-div {
         padding-left:0rem;
     }
-  }
+}
+
+
+@media (max-width: 900px) {
+
+    .i-service-container {
+        padding:0rem 1rem;
+    }
+    .service-content-container {
+        display: block;
+    }
+
+    .service-img-div, .service-description-div {
+        width: 100%;
+    }
+    .service-img-div {
+        margin-bottom:2rem;
+    }
+
+    .service-description-div {
+        padding-left:0rem;
+    }
+}

@@ -152,7 +152,7 @@
     .town-links {
         padding:2rem 1rem;
         margin:auto 0;
-        padding-top:0rem;
+        /* padding-top:0rem; */
         width:100% !important;
     }
     
