@@ -20,26 +20,26 @@ const about = () => (
         `,
         }}
         /> */}
-    <Head>
-          <title>Gold Shield Home Inspection | Abouts</title>
-          <meta name="description" content="Gold Shield Home Inspection is a home inspector servicing Fairfield County, Litchfield County & Surrounding Areas"/>
+        <Head>
+          <title>CLEO Exteriors | Pressure Washing, Gutter Cleaning, & Window Cleaning</title>
+          <meta name="description" content="Cleo Exteriors is the most exceptional service in 2023."/>
           <meta charSet="utf-8" />
           <meta name="robots" content="index, follow" />
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
-          <link rel="icon" type="image/png" href="/goldshield-logo.webp" alt="Favicon" />
-          <link rel="apple-touch-icon" href="/goldshield-logo.webp" /> 
-          <link rel="canonical" href="https://goldshieldhomeinspection.com/about"/>
-            <meta property="og:type" content="article" />
-            <meta property="og:title" content="TITLE OF YOUR POST OR PAGE" />
-            <meta property="og:description" content="DESCRIPTION OF PAGE CONTENT" />
-            <meta property="og:image" content="LINK TO THE IMAGE FILE" />
-            <meta property="og:url" content="PERMALINK" />
-            <meta property="og:site_name" content="SITE NAME" />
-            <meta name="twitter:title" content="TITLE OF POST OR PAGE" />
-            <meta name="twitter:description" content="DESCRIPTION OF PAGE CONTENT" />
-            <meta name="twitter:image" content="LINK TO IMAGE" />
-            <meta name="twitter:site" content="@USERNAME" />
-            <meta name="twitter:creator" content="@USERNAME" />
+          <link rel="icon" type="image/png" href="/logo.png" alt="Favicon" />
+          <link rel="apple-touch-icon" href="/logo.png" /> 
+          <link rel="canonical" href="https://cleoexteriors.com/"/>
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="TITLE OF YOUR POST OR PAGE" />
+          <meta property="og:description" content="DESCRIPTION OF PAGE CONTENT" />
+          <meta property="og:image" content="LINK TO THE IMAGE FILE" />
+          <meta property="og:url" content="PERMALINK" />
+          <meta property="og:site_name" content="SITE NAME" />
+          <meta name="twitter:title" content="TITLE OF POST OR PAGE" />
+          <meta name="twitter:description" content="DESCRIPTION OF PAGE CONTENT" />
+          <meta name="twitter:image" content="LINK TO IMAGE" />
+          <meta name="twitter:site" content="@USERNAME" />
+          <meta name="twitter:creator" content="@USERNAME" />
       </Head>
     <Navbar />
     <div className="about-page-container">
