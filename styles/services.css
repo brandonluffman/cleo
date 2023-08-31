@@ -53,12 +53,13 @@
 }
 
 .services-page-subheader {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.4rem;
     margin-bottom:4rem;
     text-align: center;
     padding:0rem 4rem;
-    color:rgb(0, 0, 0);
+
+    color:rgb(255, 255, 255);
 }
 
 .service-page-headers {
@@ -156,6 +157,43 @@
     color:rgb(136, 136, 136);
 }
 
+.arrow
+{
+  position: absolute;
+  /* bottom: -2rem; */
+  left: 50%;
+  bottom:0;
+
+  /* margin-left:-20px; */
+  width: 40px;
+  height: 40px;
+
+  /**
+   * Dark Arrow Down
+   */
+  background-size: contain;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.bounce-arrow-icon {
+    font-size: 4rem;
+}
+
 @media (max-width: 900px) {
     .included-div {
         height:auto;
@@ -214,7 +252,7 @@
 
 @media (max-width: 900px) {
     .headers-logo {
-        width:40%;
+        width:20%;
         margin:0 !important;
     }
     .cert-logo {
@@ -223,5 +261,23 @@
 
     .included-div {
         padding:0rem !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .services-page-header {
+        font-size: 2.5rem;
+        line-height: 5vh;
+        margin-bottom:6rem;
+    }
+    .service-page-headers {
+        padding-top:0;
+    }
+    .services-page-btn {
+        margin-bottom:4rem;
+    }
+    .arrow {
+        left:40%;
+        bottom:70px;
     }
 }

@@ -56,3 +56,9 @@
         margin-bottom: 2rem;
     }
   }
+  @media (max-width: 500px) {
+    .fairfield-county-div, .litchfield-county-div {
+        padding: 0.5rem;
+        margin:0rem;
+    }
+  }

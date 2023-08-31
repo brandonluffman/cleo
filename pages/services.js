@@ -6,7 +6,7 @@ import Image from "next/image";
 import { FaRegDotCircle } from 'react-icons/fa';
 import serviceInfo from "./api/services";
 import ServicesGrid from "../components/ServicesGrid";
-
+import {BsArrowDownShort} from 'react-icons/bs'
 const services = ({ services }) => {
   return (
     <div>
@@ -56,7 +56,8 @@ const services = ({ services }) => {
           <img src='/exterior.jpeg' className="cert-logo" alt='Home Inspection Certification'></img>
           <img src='/exterior.jpeg' className="cert-logo" alt='Home Inspection Certification'></img>
         </div> */}
-        <Link href='/contact'><button className="services-page-btn">Book Appoinment</button></Link>
+        <Link href='/contact' className="service-page-btn-link"><button className="services-page-btn">Book Appoinment</button></Link>
+        <div class="arrow bounce"><BsArrowDownShort className="bounce-arrow-icon"/></div>
         </div>
         <ServicesGrid />
       </div>

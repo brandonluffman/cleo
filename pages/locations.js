@@ -55,7 +55,7 @@ const locations = ({ towns }) => {
       <div className='location-page-graphic-container'>
         <div className='location-page-graphic'>
           <div className='locations-page-desc'>
-            <h4>Top Fairfield County Exterior Work Servicing all of Fairfield County & Surrounding Areas</h4><br></br>
+            <h4>Top Fairfield County Exterior Work Servicing all of Fairfield County & Surrounding Areas</h4>
             <p className='desc-desc'>We proudly serve all areas of Fairfield County, CT, including Stamford, Norwalk, Bridgeport, Danbury, Greenwich, and surrounding communities. No matter where you are located in the county, we will bring our expertise to your doorstep. At CLEO, we are proud to offer our exceptional pressure washing and gutter cleaning services to the residents of Fairfield County, CT. With our expertise and dedication to customer satisfaction, we have become the go-to choice for homeowners and businesses in the area.</p>
             {/* <div className='about-stats'>
                 <div className='about-stat about-page-stat'>

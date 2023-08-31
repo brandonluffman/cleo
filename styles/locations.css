@@ -87,6 +87,48 @@
     }
 
     .location-page-container {
-        padding: 3rem 1rem 0rem 1rem
+        padding: 6rem 1rem 0rem 1rem
     }
+}
+
+@media (max-width: 500px) {
+    .location-page-graphic {
+        display: flex;
+        flex-direction: column-reverse;
+       
+    }
+
+    .location-page-header {
+        margin:0;
+        font-size: 1.5rem;
+    }
+
+    .locations-page-desc > h4 {
+        line-height: 4vh;
+    }
+
+    
+    .locations-page-desc {
+        padding-right: 0rem;
+        line-height:6vh;
+        margin-bottom:4rem;
+    }
+    .locations-page-img {
+       margin-bottom:0rem;
+       display: none;
+    }
+
+    .location-page-container {
+        padding: 8rem 0rem 0rem 0rem
+    }
+.all-locations-header {
+    padding:0rem 1rem;
+}
+.location-page-graphic-container, .location-page-content-container {
+    padding:0rem 1rem;
+}
+.desc-desc {
+    font-size: 0.9rem;
+    line-height: 4vh;
+}
 }

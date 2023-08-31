@@ -105,15 +105,15 @@ const Contact = () => {
         <div className='quote-project-details'>
           <div>
           <h4>Square Footage</h4>
-        {propertySize.toLocaleString()}
+        {propertySize > 0 && propertySize.toLocaleString()}
         </div>
         <div>
         <h4>Project Date</h4>
-        {selectedDate && selectedDate.toDateString()}
+        {selectedDate > Date.now() && selectedDate.toDateString()}
         </div>
         <div>
         <h4>Location</h4>
-        {selectedTown.toUpperCase()}
+        {selectedTown && selectedTown.toUpperCase()}
         </div>
         </div>
       </div>
