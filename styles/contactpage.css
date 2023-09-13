@@ -30,6 +30,8 @@
 .form-app-selection {
     display: block;
     margin-bottom:6rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 .radio-label {
     margin-bottom:0rem;
@@ -124,6 +126,8 @@
     text-align: center;
     margin-right:1.25rem;
     transition: 0.2s ease;
+
+    margin-bottom:1rem;
 }
 
 .radio-label:hover {

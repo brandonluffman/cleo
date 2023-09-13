@@ -28,8 +28,8 @@ export default function Town({ town }) {
         }}
         /> */}
       <Head>
-          <title>CLEO Exteriors | {town.Town} Home Exterior Cleaning & Repars</title>
-          <meta name="description" content={`Cleo Exteriors offers exception cleaning and repair servicces in {town.Town}`}/>
+          <title>CLEO Exteriors | {town.Town} Exterior & Interior Painting</title>
+          <meta name="description" content={`CLEO Painting offers exceptional painting services in {town.Town}`}/>
 
           <meta charSet="utf-8" />
           <meta name="robots" content="index, follow" />
@@ -59,7 +59,7 @@ export default function Town({ town }) {
                         <img src={town.Image} className='town-img' alt='Fairfield County Graphic' />
                     </div>
                     <div className="town-description-div">
-                        <h1 className="town-title">{town.Town} Exterior Home Cleaning & Repairs</h1>
+                        <h1 className="town-title">{town.Town} Exterior & Interior Home Painting</h1>
                         <h3 className="town-subtitle"><MdLocationPin />{town.Town}, CT</h3>
                         <h6 className="town-county">County - {town.County}</h6>
                         <p className="town-description">{town.Text}</p>
@@ -70,7 +70,7 @@ export default function Town({ town }) {
                 </div>
                 <div className="town-links">
                         <div>
-                            <h4 className="town-links-header">Looking to book a cleaning in {town.Town}?</h4>
+                            <h4 className="town-links-header">Need a painter in {town.Town}?</h4>
                         </div>
                         <div>
                             <Link href='/contact' className="book-btn-link"><button className="town-book-btn">Book Here<BsArrowRight className="town-arrow"/></button></Link>

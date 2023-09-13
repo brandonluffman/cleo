@@ -40,7 +40,7 @@ const Footer = () => {
     </div>
     </div>
     <div className='footer-copyright'>
-      <p className='footer-copyright-content'>Copyright © {new Date().getFullYear()} CLEO Exteriors - All Rights Reserved.</p>
+      <p className='footer-copyright-content'>Copyright © {new Date().getFullYear()} CLEO Painting - All Rights Reserved.</p>
     </div>
     </div>
   )

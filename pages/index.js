@@ -7,6 +7,7 @@ import Navbar from '../components/Navbar';
 import {MdLocationPin} from 'react-icons/md';
 import {BsArrowRight} from 'react-icons/bs'
 import Contact from '../components/Contact';
+import LocationLinks from '../components/LocationLinks';
 // import Testimonials from '../components/Testimonials';
 // import LocationLinks from '../components/LocationLinks';
 // import ServicesGrid from '../components/ServicesGrid';
@@ -32,13 +33,13 @@ export default function Home() {
         }}
         /> */}
     <Head>
-          <title>CLEO Exteriors | Pressure Washing, Gutter Cleaning, & Window Cleaning</title>
-          <meta name="description" content="Cleo Exteriors is the most exceptional service in 2023."/>
+          <title>CLEO Painting | Top Exterior & Interior Home Painters</title>
+          <meta name="description" content="CLEO Painting: Unparalleled Exterior and Interior Painting expertise serving all of Fairfield County and surrounding areas."/>
           <meta charSet="utf-8" />
           <meta name="robots" content="index, follow" />
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
           <link rel="icon" type="image/png" href="/logo.png" alt="Favicon" />
-          <link rel="apple-touch-icon" href="/logo.png" /> 
+          <link rel="apple-touch-icon" href="/favicon.png" /> 
           <link rel="canonical" href="https://cleoexteriors.com/"/>
           <meta property="og:type" content="article" />
           <meta property="og:title" content="TITLE OF YOUR POST OR PAGE" />
@@ -56,33 +57,19 @@ export default function Home() {
       <Navbar />
       <div className='landing-container'>
         <div className='test'>
-        <h1 className='landing-header'><span className='header-color'>CLEO</span> Exteriors</h1>
-        <h2 className='landing-subheader'>Elevate your homes appeal with the best Pressure Washing, Gutter Cleaning, & Window Washing services in Fairfield County.</h2>
-        {/* <div className='landing-service-div'>
-          <div className='landing-service'>
-            Power Washing
-          </div>
-          <div className='landing-service'>
-            Gutter Cleaning
-          </div>
-          <div className='landing-service'>
-            Window Washing
-          </div>
-        </div>*/}
+        <h1 className='landing-header'><span className='header-color'>CLEO</span> Painting</h1>
+        <h2 className='landing-subheader'>Elevate your homes appeal with the best Interior & Exterior Home Painting Contractor in Greenwich, Westport, Darien & surrounding towns in Fairfield County.</h2>
         <div className='landing-location-div'>
           <MdLocationPin className='landing-location-icon'/> Fairfield County, CT
         </div> 
-
-        {/* <h2 className='landing-subheader'></h2> */}
         <div className='landing-btns'>
         <Link href='/contact'><button type='button' className='landing-btn booking-btn'>Book Now</button></Link>
         <Link href='/about'><button type='button' className='landing-btn learn-btn'>Learn More</button></Link>
         </div>
         </div>
       </div>
-      <div className='stats-container'>
 
-      </div>
+
       <div className='about-container'>
         {/* <p className='container-header about-header'>About</p> */}
         <div className='about-content-container'>
@@ -91,76 +78,118 @@ export default function Home() {
         </div>
         <div className='about-content-div'>
         <section className='about-paragraph'>
-          <h3 className='about-paragraph-content'><span className='header-color'>CLEO</span> Exteriors is the <br></br><br></br><b className='about-paragraph-content-bold'>Top Rated Home Exterior Service in Fairfield County</b></h3>
+          <h3 className='about-paragraph-content'><span className='header-color'>CLEO</span> Painting<br></br><br></br>
+          <b className='about-paragraph-content-bold'>Top Rated Home Painting & Exterior Cleaning Business in Fairfield County</b>
+          </h3>
         </section>
         <p className='about-paragraph-description'>
-        Welcome to CLEO Exteriors, your trusted experts in pressure washing, gutter cleaning, and exterior work. We take pride in delivering impeccable services that not only meet but exceed your expectations. With years of experience and a passion for perfection, our skilled team goes above and beyond to restore the beauty and integrity of your home&apos;s exterior. From removing stubborn stains and grime with our state-of-the-art pressure washing equipment to ensuring clog-free gutters for efficient water drainage, we handle every project with utmost care and attention to detail. What sets us apart is our commitment to delivering fantastic results that speak for themselves. Whether your property requires a thorough cleaning, a fresh coat of paint, or an overall exterior facelift, we have the expertise to tackle any project, big or small. Our dedication to using top-quality materials and employing industry-leading techniques ensures exceptional and long-lasting results that stand the test of time.
+        Welcome to CLEO Painting, your trusted experts in 
+        </p>
+        <ul>
+          <li>Exterior Painting</li>
+          <li>Interior Painting</li>
+          <li>Cabinet Painting</li>
+          <li>Roof Cleaning</li>
+          <li>Gutter Cleaning</li>
+          <li>Window Washing</li>
+          <li>Air Duct Cleaning</li>
+          <li>Dryer Vent Cleaning</li>
+          </ul>
+          <p>
+          At CLEO Painting, we take immense pride in providing painting services that not only meet but surpass your highest expectations. 
+          With a wealth of experience and an unwavering commitment to excellence, our talented team goes the extra mile to rejuvenate and enhance your home&apos;s interior and exterior. 
+          From meticulously prepping surfaces and applying premium paints to delivering flawlessly smooth finishes, we approach every painting project with precision and meticulous attention to detail. 
+          What distinguishes us is our steadfast dedication to achieving remarkable outcomes that truly shine. 
+          Whether your property requires a complete transformation, a fresh color palette, or a simple touch-up, we possess the expertise to tackle projects of any scope. 
+          Our commitment to using the finest materials and staying at the forefront of industry techniques guarantees outstanding and enduring results that will beautify your home for years to come.
+          {/* Exterior Painting, Interior Painting, Cabinet Painting, Pressure Washing, Roof Cleaning, Window Washing, Gutter Cleaning, Air Duct Cleaning & Dryer Vent cleaning. */}
         </p>
         <p className='about-paragraph-assist'>
-          <b>Assisting Buyers, Sellers & Real Estate Professionals</b>
+          <b>Exceeding Expectations: Elevating Your Home with Exceptional Painting Service</b>
         </p>
         <p className='about-paragraph-description'>
-        At CLEO, we understand that your home is a reflection of your personal style and investment. That&apos;s why we treat each project as if it were our own, meticulously working to enhance curb appeal and protect your property&apos;s value. Rest easy knowing that your exterior work is in the hands of true professionals who take pride in their craft.
-
-          Don&apos;t settle for anything less than outstanding. Experience the difference of working with a company that provides fantastic workmanship, reliable service, and customer satisfaction that exceeds all expectations. Trust CLEO Exteriors for all your pressure washing, gutter cleaning, and exterior work needs. Contact us today for a complimentary consultation, and let us bring out the true beauty of your home&apos;s exterior.
+        At CLEO, we recognize that your home is not just a house; it&apos;s an embodiment of your style and an investment worth safeguarding. 
+        That&apos;s why we approach every painting project with the same dedication and care as if it were our own home. 
+        We painstakingly work to elevate your property&apos;s aesthetics while preserving its value. 
+        Rest assured, your interior and exterior painting is entrusted to skilled professionals who take immense pride in their craft. 
+        Settle for nothing less than exceptional. Discover the transformative difference of partnering with a company that delivers unparalleled workmanship, unwavering reliability, and a level of customer satisfaction that consistently exceeds expectations. 
+        Trust CLEO Painting for all your interior and exterior painting needs. 
+        Contact us today for a complimentary consultation, and let us reveal the true beauty of your home through our expert painting services.
         </p>
         </div>
         </div>
-        {/* <div className='about-stats'>
-          <div className='about-stat'>
-            <p className='about-stat-number'>2000+</p>
-            <p className='about-stat-title'>Home Inspections</p>
-          </div>
-          <div className='about-stat middle-stat'>
-            <p className='about-stat-number'>50+</p>
-            <p className='about-stat-title'>Towns Serviced</p>
-          </div>
-          <div className='about-stat'>
-            <p className='about-stat-number'>12+</p>
-            <p className='about-stat-title'>Years In The Business</p>
-          </div>
-        </div> */}
       </div>
       <div className='services-container'>
         <p className='container-header services-header'>Services</p>
         <div className='services-grid'>
-        <Link href='/services/pressure-washing'>
+        <Link href='/services/exterior-painting'>
         <div className='service-grid-item service-grid-1'>
+            <h2 className='service-grid-title'>Exterior Painting</h2>
+        </div>
+        </Link>
+        <Link href='/services/interior-painting'>
+        <div className='service-grid-item service-grid-2'>
+            <h2 className='service-grid-title'>Interior Painting</h2>
+        </div>
+        </Link>
+        <Link href='/services/cabinet-painting'>
+        <div className='service-grid-item service-grid-3'>
+            <h2 className='service-grid-title'>Cabinet Painting</h2>
+        </div>
+        </Link>
+        <Link href='/services/pressure-washing'>
+        <div className='service-grid-item service-grid-4'>
             <h2 className='service-grid-title'>Pressure Washing</h2>
         </div>
         </Link>
+        <Link href='/services/roof-cleaning'>
+        <div className='service-grid-item service-grid-5'>
+            <h2 className='service-grid-title'>Roof Cleaning</h2>
+        </div>
+        </Link>
         <Link href='/services/gutter-cleaning'>
-        <div className='service-grid-item service-grid-2'>
+        <div className='service-grid-item service-grid-6'>
             <h2 className='service-grid-title'>Gutter Cleaning</h2>
         </div>
         </Link>
         <Link href='/services/window-washing'>
-        <div className='service-grid-item service-grid-3'>
+        <div className='service-grid-item service-grid-7'>
         <h2 className='service-grid-title'>Window Washing</h2>
+        </div>
+        </Link>
+        <Link href='/services/air-duct-cleaning'>
+        <div className='service-grid-item service-grid-8'>
+        <h2 className='service-grid-title'>Air Duct Cleaning</h2>
+        </div>
+        </Link>
+        <Link href='/services/dryer-vent-cleaning'>
+        <div className='service-grid-item service-grid-9'>
+        <h2 className='service-grid-title'>Dryer Vent Cleaning</h2>
         </div>
         </Link>
         </div>
         {/* <ServicesGrid /> */}
       </div>
-      <div className='locations-cosntainer'>
+      <div className='locations-container'>
       <p className='container-header locations-header'>Locations</p>
       <div className='locations-container-wrapper'>
       <div className='location-img-container'>
-        <h2 className='location-description-header'>Top Fairfield County Exterior Work</h2>
-        <p className='location-description'>We proudly serve all areas of Fairfield County, CT, including Stamford, Norwalk, Bridgeport, Danbury, Greenwich, and surrounding communities. No matter where you are located in the county, we will bring our expertise to your doorstep. At CLEO, we are proud to offer our exceptional pressure washing and gutter cleaning services to the residents of Fairfield County, CT. With our expertise and dedication to customer satisfaction, we have become the go-to choice for homeowners and businesses in the area.</p>
-        {/* <div className='location-description-img-div'>
-        <img src='/exterior.jpeg' className='location-inspection-img' alt='Fairfield County Graphic'></img>
-        </div> */}
+        <h2 className='location-description-header'>Top Fairfield County House Painters & Exterior Cleaning</h2>
+        <p className='location-description'>
+          We proudly serve all areas of Fairfield County, CT, including Westport, Wilton, Weston, Darien, New Canaan, Greenwich, and surrounding communities.
+         No matter where you are located in the county, we will bring our expertise to your doorstep. 
+         At CLEO, we are proud to offer our exceptional commercial & residential home painting services as well as exterior cleaning services - pressure washing, gutter cleaning and roof cleaning services to the residents of Fairfield County, CT. 
+         With our expertise and dedication to customer satisfaction, we have become the go-to choice for homeowners and businesses in the area.</p>
       </div>
       <div className='location-content-container'>  
-      <div className='county-img'>
-      <img src='/fairfield-county.png' className='location-img' alt='Fairfield County Graphic'></img>
-      </div>
-      <div className='counties-container'>
-        {/* <LocationLinks /> */}
+        <div className='county-img'>
+        <img src='/fairfield-county.png' className='location-img' alt='Fairfield County Graphic'></img>
         </div>
       </div>
       </div>
+      <div className='counties-container'>
+          <LocationLinks />
+          </div>
       <div className='location-btn-div'>
       <Link href='/locations'><button type='button' className='view-locations-btn'>View All Locations<BsArrowRight className='arrow-icon'/></button></Link>
       </div>
@@ -177,7 +206,7 @@ export default function Home() {
           </div>
           <div className='testimonial-div-item'>
             <img className='testimonial-img' src='/profile-2.jpeg' width='50'></img>
-            <p className='testimonial-content'>CLEO Exteriors has consistently worked for us for many years now!! They give a fair price and always do a very professional job! I&apos;m always amazed at how clear our windows and how fresh our house looks after they leave!! Wish I could give them 6 stars!!!</p>
+            <p className='testimonial-content'>CLEO Painting has consistently worked for us for many years now!! They give a fair price and always do a very professional job! I&apos;m always amazed at how clear our windows and how fresh our house looks after they leave!! Wish I could give them 6 stars!!!</p>
             <h2 className='testimonial-name'>Melinda Gracie</h2>
             <p className='testimonial-date'>06/14/23</p>
           </div>

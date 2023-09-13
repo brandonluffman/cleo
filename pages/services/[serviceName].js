@@ -28,8 +28,8 @@ export default function Service({ service }) {
         }}
         /> */} 
       <Head>
-          <title>CLEO Exteriors | {service.Name}</title>
-          <meta name="description" content={`Cleo Exteriors provides high quality ${service.Name}.`}/>
+          <title>CLEO Painting | {service.Name}</title>
+          <meta name="description" content={`CLEO Painting provides high quality ${service.Name}.`}/>
           <meta charSet="utf-8" />
           <meta name="robots" content="index, follow" />
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -64,7 +64,7 @@ export default function Service({ service }) {
                 </div>
                 <div className="town-links">
                         <div>
-                            <h3 className="town-links-header">Looking to book a {service.Name}?</h3>
+                            <h3 className="town-links-header">Looking to book {service.Name}?</h3>
                         </div>
                         <div>
                             <Link href='/contact'><button className="town-book-btn">Book Here<BsArrowRight className="town-arrow"/></button></Link>

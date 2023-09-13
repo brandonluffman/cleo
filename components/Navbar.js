@@ -2,9 +2,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { MdMenu, MdClear } from 'react-icons/md';
 import Image from "next/image";
-
-
-
+import {AiOutlineSchedule} from 'react-icons/ai';
 
 function Nav() {
 
@@ -47,7 +45,7 @@ function Nav() {
         <div className="nav-buttons">
           {/* <button className="nav-lang-btn" type='button'>En</button> */}
           {/* <Link href='/project'><button className='nav-contact-btn' type='button'><img src='/ranki-transp-logo.png' width='20'></img>RankiAI <span className='beta-tag'>Beta</span></button></Link> */}
-          <Link href='/contact'><button className='nav-contact-btn' type='button'>Book Appointment</button></Link>
+          <Link href='/contact'><button className='nav-contact-btn' type='button'>Book Appointment <AiOutlineSchedule className="nav-contact-btn-icon" /></button></Link>
           {isActive? <MdClear className='hamburger-btn hamburger-close-btn' onClick={toggleNav}/>:<MdMenu className='hamburger-btn' onClick={toggleNav} />}
         </div>
         <ul className="nav-menu" id='nav-menu' style={{right: showMe? "0":"-100%"}}>
@@ -82,7 +80,9 @@ function Nav() {
               Contact
           </li>
           </Link>
-          <li className="nav-item">
+          <Link href='/contact'><button className='nav-contact-menu-btn' type='button'>Book Appointment <AiOutlineSchedule className="nav-contact-btn-icon" /></button></Link>
+
+          <li className="nav-item brand-img-nav-item">
           <div className="dropdown-brand-div">
             <Image className='dropdown-brand-img' src='/logo.png' alt='Brand Logo' height='65' width='50' />
           </div>

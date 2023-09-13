@@ -1,3 +1,6 @@
+import React from 'react';
+import { useState } from 'react';
+import { useEffect } from 'react';
 import Link from 'next/link';
 import {MdLocationPin} from 'react-icons/md';
 import Footer from '../components/Footer';
@@ -7,6 +10,7 @@ import Head from 'next/head';
 import LocationLinks from '../components/LocationLinks';
 
 const locations = ({ towns }) => {
+
   return (
     <div>    
          {/* <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-W3Q83E2JE3"/>
@@ -25,8 +29,8 @@ const locations = ({ towns }) => {
         }}
         /> */}
        <Head>
-          <title>CLEO Exteriors | Pressure Washing, Gutter Cleaning, & Window Cleaning</title>
-          <meta name="description" content="Cleo Exteriors is the most exceptional service in 2023."/>
+       <title>CLEO Painting | Top Exterior & Interior Home Painters</title>
+          <meta name="description" content="CLEO Painting: Unparalleled Exterior and Interior Painting expertise serving all of Fairfield County and surrounding areas."/>
           <meta charSet="utf-8" />
           <meta name="robots" content="index, follow" />
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -49,14 +53,14 @@ const locations = ({ towns }) => {
       <div className='location-page-container'> 
       <div className='location-page-content-container'>
       <div className='location-page-content'>
-        <h1 className='location-page-header'>Home Exterior Cleaning & Repairs in Fairfield County & Litchfield County</h1>
+        <h1 className='location-page-header'>Home Exterior & Interior Painting Services in Fairfield County & Litchfield County</h1>
       </div>
       </div>
       <div className='location-page-graphic-container'>
         <div className='location-page-graphic'>
           <div className='locations-page-desc'>
-            <h4>Top Fairfield County Exterior Work Servicing all of Fairfield County & Surrounding Areas</h4>
-            <p className='desc-desc'>We proudly serve all areas of Fairfield County, CT, including Stamford, Norwalk, Bridgeport, Danbury, Greenwich, and surrounding communities. No matter where you are located in the county, we will bring our expertise to your doorstep. At CLEO, we are proud to offer our exceptional pressure washing and gutter cleaning services to the residents of Fairfield County, CT. With our expertise and dedication to customer satisfaction, we have become the go-to choice for homeowners and businesses in the area.</p>
+            <h4>Top Fairfield County Painting Contractor Servicing all of Fairfield County & Surrounding Areas</h4>
+            <p className='desc-desc'>We proudly serve all areas of Fairfield County, CT, including Darien, Westport, New Cannan, Greenwich, and surrounding communities. No matter where you are located in the county, we will bring our expertise to your doorstep. At CLEO, we are proud to offer our exceptional pressure washing and gutter cleaning services to the residents of Fairfield County, CT. With our expertise and dedication to customer satisfaction, we have become the go-to choice for homeowners and businesses in the area.</p>
             {/* <div className='about-stats'>
                 <div className='about-stat about-page-stat'>
                   <p className='about-stat-number'>12+</p>
@@ -77,15 +81,6 @@ const locations = ({ towns }) => {
       <hr className='location-hr'></hr>
       <h3 className='all-locations-header'>All Locations We Service</h3>
       <LocationLinks />
-      {/* <ol>
-          {towns.map((town) => (
-            <li key={town.Id}>
-              <Link href={`/locations/${town.Slug}`}>
-                <a>{town.Town}</a>
-              </Link>
-            </li>
-          ))}
-        </ol> */}
         </div>
       </div>
       <Footer />

@@ -70,7 +70,7 @@ const Contact = () => {
         <p className="contact-info-item"><IoIosPhonePortrait className="footer-contact-icon" />(203) 822-2311</p>
         <p className="contact-info-item"><TfiLocationPin className="footer-contact-icon" /> Westport, CT</p>
         </div>
-        <p className="contact-book-text">Looking to schedule a cleaning?</p>
+        <p className="contact-book-text">Need a painter?</p>
         <Link type='button' href='/contact'><button className='contact-book-btn'>Book Here<BsArrowRight className='arrow-icon'></BsArrowRight></button></Link>
       </div>
       </div>

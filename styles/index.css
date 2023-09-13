@@ -51,16 +51,20 @@ p {
     padding-top:142px; */
     color:white;
   /* background-image:linear-gradient(to bottom, rgba(255,255,255,0) 20%, rgba(0,0,0,0.7) 100%),url('../public/landing-bg.jpg'); */
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0,0,0,0.7) 60%),url('/exterior.jpeg');
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0,0,0,0.8) 60%),url('/exterior.jpeg');
 overflow: hidden;
 padding:0px 3rem 0rem 3rem;
 }
 
 .landing-header {
-    font-size:7rem;
+    font-size:6rem;
     margin:0;
-    font-weight:300;
-    margin-top:2rem;
+    font-weight:500;
+    margin-top:5rem;
+    line-height:13vh;
+    margin-bottom:1rem;
+    width:65%;
+    letter-spacing: -.2vw;
 }
 .header-color {
     color: rgb(186, 166, 97);
@@ -71,7 +75,7 @@ padding:0px 3rem 0rem 3rem;
     overflow: hidden;
     font-weight:400;
     margin:0;
-    width:65%;
+    width:60%;
     margin-bottom:6rem;
 }
 .landing-btns {
@@ -314,16 +318,38 @@ height:auto;
 }
 
 .service-grid-1 {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0,0,0,0.5) 20%),url('/exterior-painting.jpeg');
+}
+
+.service-grid-2 {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0,0,0,0.5) 20%),url('/interior-painting.jpeg');
+}
+
+.service-grid-3 {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0,0,0,0.5) 20%),url('/cabinet-painting.png');
+}
+
+.service-grid-4 {
     background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0,0,0,0.5) 20%),url('/pressure-washing.jpeg');
 }
 
 
-.service-grid-2 {
+.service-grid-5 {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0,0,0,0.5) 20%),url('/roof-washing.jpeg');
+}
+
+.service-grid-6 {
     background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0,0,0,0.5) 20%),url('/gutter-cleaning.jpeg');
 }
 
-.service-grid-3 {
+.service-grid-7 {
     background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0,0,0,0.5) 20%),url('/window-cleaning.jpeg');
+}
+.service-grid-8 {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0,0,0,0.5) 20%),url('/air-duct.jpeg');
+}
+.service-grid-9 {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0,0,0,0.5) 20%),url('/dryer-vent.jpeg');
 }
 
 @media (max-width: 650px) {
@@ -517,6 +543,8 @@ height:auto;
 .location-content-container {
     width:50%;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 .location-img-container {
     width:50%;

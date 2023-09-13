@@ -21,8 +21,8 @@ const about = () => (
         }}
         /> */}
         <Head>
-          <title>CLEO Exteriors | Pressure Washing, Gutter Cleaning, & Window Cleaning</title>
-          <meta name="description" content="Cleo Exteriors is the most exceptional service in 2023."/>
+        <title>CLEO Painting | Top Exterior & Interior Home Painters</title>
+          <meta name="description" content="CLEO Painting: Unparalleled Exterior and Interior Painting expertise serving all of Fairfield County and surrounding areas."/>
           <meta charSet="utf-8" />
           <meta name="robots" content="index, follow" />
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -61,26 +61,48 @@ const about = () => (
           </div>
         </div>
         </div> */}
-        <div className='about-content-div'>
-          <section className='about-paragraph'>
-          <h1 className='about-paragraph-content'><span className='header-color'>CLEO</span> Exteriors is the <br></br><br></br><b className='about-paragraph-content-bold'>Top Rated Home Exterior Service in Fairfield County</b></h1>          </section>
-          <p className='about-paragraph-description'>
-          Welcome to CLEO Exteriors, your trusted experts in pressure washing, gutter cleaning, and exterior work. We take pride in delivering impeccable services that not only meet but exceed your expectations. With years of experience and a passion for perfection, our skilled team goes above and beyond to restore the beauty and integrity of your home&apos;s exterior. From removing stubborn stains and grime with our state-of-the-art pressure washing equipment to ensuring clog-free gutters for efficient water drainage, we handle every project with utmost care and attention to detail. What sets us apart is our commitment to delivering fantastic results that speak for themselves. Whether your property requires a thorough cleaning, a fresh coat of paint, or an overall exterior facelift, we have the expertise to tackle any project, big or small. Our dedication to using top-quality materials and employing industry-leading techniques ensures exceptional and long-lasting results that stand the test of time.
-          </p>
-          <p className='about-paragraph-assist'>
-          <b>Assisting Buyers, Sellers & Real Estate Professionals</b>
-          </p>
-          <p className='about-paragraph-description'>
-          At CLEO, we understand that your home is a reflection of your personal style and investment. That&apos;s why we treat each project as if it were our own, meticulously working to enhance curb appeal and protect your property&apos;s value. Rest easy knowing that your exterior work is in the hands of true professionals who take pride in their craft.
-              <br></br><br></br>
-              Don&apos;t settle for anything less than outstanding. Experience the difference of working with a company that provides fantastic workmanship, reliable service, and customer satisfaction that exceeds all expectations. Trust CLEO Exteriors for all your pressure washing, gutter cleaning, and exterior work needs. Contact us today for a complimentary consultation, and let us bring out the true beauty of your home&apos;s exterior.
-              {/* <br></br><br></br> */}
-              {/* More Content *** */}
-          </p>
-          <div className="about-inspect-div">
-          {/* <img src='/inspector.webp' className="about-page-inspector-img" alt='Home Inspector' /> */}
-          </div>
-         </div>
+       
+       <div className='about-content-div'>
+        <section className='about-paragraph'>
+          <h3 className='about-paragraph-content'><span className='header-color'>CLEO</span> Painting<br></br><br></br>
+          <b className='about-paragraph-content-bold'>Top Rated Home Painting & Exterior Cleaning Business in Fairfield County</b>
+          </h3>
+        </section>
+        <p className='about-paragraph-description'>
+        Welcome to CLEO Painting, your trusted experts in 
+        </p>
+        <ul>
+          <li>Exterior Painting</li>
+          <li>Interior Painting</li>
+          <li>Cabinet Painting</li>
+          <li>Roof Cleaning</li>
+          <li>Gutter Cleaning</li>
+          <li>Window Washing</li>
+          <li>Air Duct Cleaning</li>
+          <li>Dryer Vent Cleaning</li>
+          </ul>
+          <p>
+          At CLEO Painting, we take immense pride in providing painting services that not only meet but surpass your highest expectations. 
+          With a wealth of experience and an unwavering commitment to excellence, our talented team goes the extra mile to rejuvenate and enhance your home&apos;s interior and exterior. 
+          From meticulously prepping surfaces and applying premium paints to delivering flawlessly smooth finishes, we approach every painting project with precision and meticulous attention to detail. 
+          What distinguishes us is our steadfast dedication to achieving remarkable outcomes that truly shine. 
+          Whether your property requires a complete transformation, a fresh color palette, or a simple touch-up, we possess the expertise to tackle projects of any scope. 
+          Our commitment to using the finest materials and staying at the forefront of industry techniques guarantees outstanding and enduring results that will beautify your home for years to come.
+          {/* Exterior Painting, Interior Painting, Cabinet Painting, Pressure Washing, Roof Cleaning, Window Washing, Gutter Cleaning, Air Duct Cleaning & Dryer Vent cleaning. */}
+        </p>
+        <p className='about-paragraph-assist'>
+          <b>Exceeding Expectations: Elevating Your Home with Exceptional Painting Service</b>
+        </p>
+        <p className='about-paragraph-description'>
+        At CLEO, we recognize that your home is not just a house; it&apos;s an embodiment of your style and an investment worth safeguarding. 
+        That&apos;s why we approach every painting project with the same dedication and care as if it were our own home. 
+        We painstakingly work to elevate your property&apos;s aesthetics while preserving its value. 
+        Rest assured, your interior and exterior painting is entrusted to skilled professionals who take immense pride in their craft. 
+        Settle for nothing less than exceptional. Discover the transformative difference of partnering with a company that delivers unparalleled workmanship, unwavering reliability, and a level of customer satisfaction that consistently exceeds expectations. 
+        Trust CLEO Painting for all your interior and exterior painting needs. 
+        Contact us today for a complimentary consultation, and let us reveal the true beauty of your home through our expert painting services.
+        </p>
+        </div>
     </div>
     </div>
     <Footer />

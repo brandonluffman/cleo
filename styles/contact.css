@@ -84,6 +84,7 @@ input:focus, textarea:focus {
     transition: 0.2s all ease-in-out;
     display: flex;
     align-items: center;
+    font-weight:700;
 }
 .contact-sides-header {
     font-size:2.5rem;
@@ -103,6 +104,8 @@ input:focus, textarea:focus {
 .contact-info-item {
     cursor:pointer;
     margin-bottom:1rem;
+    display: flex;
+    align-items: center;
 }
 .name-label {
     font-weight:700;

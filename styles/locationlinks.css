@@ -9,7 +9,7 @@
 }
 
 .fairfield-county-div {
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    /* border-right: 1px solid rgba(255, 255, 255, 0.2); */
 }
 .location-hr {
     width:30%;
@@ -49,6 +49,7 @@
 
 .fairfield-header, .litchfield-header {
     font-size:1.3rem;
+    text-align: center;
 }
 @media (max-width: 900px) {
     .fairfield-county-div, .litchfield-county-div {

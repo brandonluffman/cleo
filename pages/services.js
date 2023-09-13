@@ -26,8 +26,8 @@ const services = ({ services }) => {
         }}
         /> */}
        <Head>
-          <title>CLEO Exteriors | Pressure Washing, Gutter Cleaning, & Window Cleaning</title>
-          <meta name="description" content="Cleo Exteriors is the most exceptional service in 2023."/>
+       <title>CLEO Painting | Top Exterior & Interior Home Painters</title>
+          <meta name="description" content="CLEO Painting: Unparalleled Exterior and Interior Painting expertise serving all of Fairfield County and surrounding areas."/>
           <meta charSet="utf-8" />
           <meta name="robots" content="index, follow" />
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -50,8 +50,8 @@ const services = ({ services }) => {
       <div className='services-page-container'>
         <div className="service-page-headers">
         <img src='/logo.png' className="headers-logo" alt='Brand Logo'></img>
-        <h1 className='container-header services-page-header'><span className='color-change'>Home Exterior Cleaning & Repair</span> Services in <span className='color-change'>Connecticut</span></h1>
-        <h3 className='services-page-subheader'>Gold Shield offers a variety of inspections in Fairfield & Litchfield County, CT. Whether you&apos;re looking to test the radon or do a full home inspection, Gold Shield has you covered.</h3>
+        <h1 className='container-header services-page-header'><span className='color-change'>Exterior & Interior Home Painting & Cleaning</span> Services in <span className='color-change'>Connecticut</span></h1>
+        <h3 className='services-page-subheader'>CLEO Painting offers a variety of inspections in Fairfield & Litchfield County, CT. Whether you&apos;re looking to test the radon or do a full home inspection, Gold Shield has you covered.</h3>
         {/* <div>
           <img src='/exterior.jpeg' className="cert-logo" alt='Home Inspection Certification'></img>
           <img src='/exterior.jpeg' className="cert-logo" alt='Home Inspection Certification'></img>

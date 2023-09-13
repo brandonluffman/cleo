@@ -38,8 +38,8 @@ const Contact = () => {
   return (
     <div>
           <Head>
-          <title>CLEO Exteriors | Pressure Washing, Gutter Cleaning, & Window Cleaning</title>
-          <meta name="description" content="Cleo Exteriors is the most exceptional service in 2023."/>
+          <title>CLEO Painting | Top Exterior & Interior Home Painters</title>
+          <meta name="description" content="CLEO Painting: Unparalleled Exterior and Interior Painting expertise serving all of Fairfield County and surrounding areas."/>
           <meta charSet="utf-8" />
           <meta name="robots" content="index, follow" />
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -71,11 +71,23 @@ const Contact = () => {
         <p className='project-subheader'>I&apos;m interested in... *</p>
         <div className='form-app-selection'>
                 <input id='select-1' type="radio" value="Business Website" className="radio-input" name="interest" />
-                <label className='radio-label' htmlFor='select-1'>Pressure Washing</label>
-                <input id='select-2' type="radio" name="interest" value="Custom Website" className="radio-input"/>
-                <label className='radio-label' htmlFor='select-2'>Gutter Cleaning</label>
-                <input id='select-3' type="radio" name="interest" value="Custom Website" className="radio-input"/>
-                <label className='radio-label' htmlFor='select-3'>Window Washing</label>
+                <label className='radio-label' htmlFor='select-1'>Exterior Painting</label>
+                <input id='select-2' type="radio" value="Business Website" className="radio-input" name="interest" />
+                <label className='radio-label' htmlFor='select-2'>Interior Painting</label>
+                <input id='select-3' type="radio" value="Business Website" className="radio-input" name="interest" />
+                <label className='radio-label' htmlFor='select-3'>Cabinet Painting</label>
+                <input id='select-4' type="radio" value="Business Website" className="radio-input" name="interest" />
+                <label className='radio-label' htmlFor='select-4'>Pressure Washing</label>
+                <input id='select-5' type="radio" value="Business Website" className="radio-input" name="interest" />
+                <label className='radio-label' htmlFor='select-5'>Roof Cleaning</label>
+                <input id='select-6' type="radio" name="interest" value="Custom Website" className="radio-input"/>
+                <label className='radio-label' htmlFor='select-6'>Gutter Cleaning</label>
+                <input id='select-7' type="radio" name="interest" value="Custom Website" className="radio-input"/>
+                <label className='radio-label' htmlFor='select-7'>Window Washing</label>
+                <input id='select-8' type="radio" value="Business Website" className="radio-input" name="interest" />
+                <label className='radio-label' htmlFor='select-8'>Air Duct Cleaning</label>
+                <input id='select-9' type="radio" value="Business Website" className="radio-input" name="interest" />
+                <label className='radio-label' htmlFor='select-9'>Dryer Vent Cleaning</label>
         </div>
         <div className='form-inputs'>
                 <input type='text' placeholder='Your name *' className='form-input' name="name" required/><br></br>
