@@ -39,7 +39,7 @@ function Nav() {
       <nav className={navbar ? 'scroll fixed-top' : 'navbar fixed-top'} id="navbar">
         <Link href="/" className="nav-logo">
           <div className="brand-img" id="brand-img">
-          <img src='/logo.png' className="absolute-ghost"></img>
+          <img src='/logo.png' className="absolute-ghost" alt='Logo'></img>
           </div>
         </Link>
         <div className="nav-buttons">

@@ -58,7 +58,7 @@ export default function Home() {
       <div className='landing-container'>
         <div className='test'>
         <h1 className='landing-header'><span className='header-color'>CLEO</span> Painting</h1>
-        <h2 className='landing-subheader'>Elevate your homes appeal with the best Interior & Exterior Home Painting Contractor in Greenwich, Westport, Darien & surrounding towns in Fairfield County.</h2>
+        <h4 className='landing-subheader'>Elevate your homes appeal with the best Interior & Exterior Home Painting Contractor in Greenwich, Westport, Darien & surrounding towns in Fairfield County.</h4>
         <div className='landing-location-div'>
           <MdLocationPin className='landing-location-icon'/> Fairfield County, CT
         </div> 
@@ -199,19 +199,19 @@ export default function Home() {
         <p className='testimonial-subheader'>See what our clients have to say</p>
         <div className='testimonial-div'>
           <div className='testimonial-div-item'>
-            <img className='testimonial-img' src='/profile.jpeg' width='50'></img>
+            <img className='testimonial-img' src='/profile.jpeg' width='50' alt='Testimonial Profile Picture'></img>
             <p className='testimonial-content'>They were professional, efficient, and cleaned everything up afterwards. The price was as expected. Their system sent an automated invoice and receipt. I am very satisfied and will use again.</p>
             <h2 className='testimonial-name'>Bradley Miller</h2>
             <p className='testimonial-date'>08/25/23</p>
           </div>
           <div className='testimonial-div-item'>
-            <img className='testimonial-img' src='/profile-2.jpeg' width='50'></img>
+            <img className='testimonial-img' src='/profile-2.jpeg' width='50' alt='Testimonial Profile Picture'></img>
             <p className='testimonial-content'>CLEO Painting has consistently worked for us for many years now!! They give a fair price and always do a very professional job! I&apos;m always amazed at how clear our windows and how fresh our house looks after they leave!! Wish I could give them 6 stars!!!</p>
             <h2 className='testimonial-name'>Melinda Gracie</h2>
             <p className='testimonial-date'>06/14/23</p>
           </div>
           <div className='testimonial-div-item'>
-            <img className='testimonial-img' src='/profile-3.jpeg' width='50'></img>
+            <img className='testimonial-img' src='/profile-3.jpeg' width='50' alt='Testimonial Profile Picture'></img>
             <p className='testimonial-content'>Lucky to have found this firm! Super professional, customer service oriented, did everything as promised and more. High quality results. Meticulously careful, protected exterior light fixtures, no damage. House/windows/ roof/patio all look great!</p>
             <h2 className='testimonial-name'>Joseph Carusso</h2>
             <p className='testimonial-date'>04/08/23</p>
