@@ -26,18 +26,18 @@ const about = () => (
           <meta charSet="utf-8" />
           <meta name="robots" content="index, follow" />
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
-          <link rel="icon" type="image/png" href="/logo.png" alt="Favicon" />
-          <link rel="apple-touch-icon" href="/logo.png" /> 
-          <link rel="canonical" href="https://cleoexteriors.com/"/>
+          <link rel="icon" type="image/png" href="/favicon.png" alt="Favicon" />
+          <link rel="apple-touch-icon" href="/favicon.png" /> 
+          <link rel="canonical" href="https://cleoexteriors.com/about"/>
           <meta property="og:type" content="article" />
-          <meta property="og:title" content="TITLE OF YOUR POST OR PAGE" />
-          <meta property="og:description" content="DESCRIPTION OF PAGE CONTENT" />
-          <meta property="og:image" content="LINK TO THE IMAGE FILE" />
-          <meta property="og:url" content="PERMALINK" />
-          <meta property="og:site_name" content="SITE NAME" />
-          <meta name="twitter:title" content="TITLE OF POST OR PAGE" />
-          <meta name="twitter:description" content="DESCRIPTION OF PAGE CONTENT" />
-          <meta name="twitter:image" content="LINK TO IMAGE" />
+          <meta property="og:title" content="CLEO Painting" />
+          <meta property="og:description" content="CLEO Painting: Unparalleled Exterior and Interior Painting expertise serving all of Fairfield County and surrounding areas." />
+          <meta property="og:image" content="/favicon.png" />
+          <meta property="og:url" content="cleoexteriors.com" />
+          <meta property="og:site_name" content="CLEO Painting" />
+          <meta name="twitter:title" content="CLEO Painting" />
+          <meta name="twitter:description" content="CLEO Painting: Unparalleled Exterior and Interior Painting expertise serving all of Fairfield County and surrounding areas." />
+          <meta name="twitter:image" content="/favicon.png" />
           <meta name="twitter:site" content="@USERNAME" />
           <meta name="twitter:creator" content="@USERNAME" />
       </Head>
