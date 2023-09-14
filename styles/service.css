@@ -33,6 +33,16 @@
 .breadcrumbs > a > span {
     font-weight: 700;
 }
+.service-description {
+    line-height:2vh;
+  }
+
+@media (min-width: 1300px) {
+
+  .service-description {
+    line-height:2vh;
+  }
+}
 @media (max-width: 900px) {
 
     .i-service-container {
@@ -75,3 +85,10 @@
         padding-left:0rem;
     }
 }
+
+@media (max-width: 500px) {
+
+    .service-description {
+      font-size: 0.8rem !important;
+    }
+  }
