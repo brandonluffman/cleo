@@ -28,7 +28,7 @@ export default function Town({ town }) {
         }}
         /> */}
       <Head>
-          <title>CLEO Exteriors | {town.Town} Exterior & Interior Painting</title>
+          <title>CLEO Painting | {town.Town} Exterior & Interior Painting</title>
           <meta name="description" content={`CLEO Painting offers exceptional painting services in {town.Town}`}/>
 
           <meta charSet="utf-8" />

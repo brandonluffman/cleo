@@ -10,12 +10,15 @@
 .service-title {
     margin-bottom:1rem;
     margin-top:0;
+    color:rgb(186, 166, 97);
 }
 
-.service-img-div, .service-description-div {
-    width: 50%;
+.service-img-div {
+    width: 40%;
 }
-
+.service-description-div {
+    width: 60%;
+}
 .service-description-div {
     padding-left:2rem;
     line-height:5vh;
@@ -27,7 +30,9 @@
     padding: 1rem 1rem;
     padding-top:8rem;
 }
-
+.breadcrumbs > a > span {
+    font-weight: 700;
+}
 @media (max-width: 900px) {
 
     .i-service-container {

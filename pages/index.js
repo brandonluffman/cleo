@@ -8,6 +8,8 @@ import {MdLocationPin} from 'react-icons/md';
 import {BsArrowRight} from 'react-icons/bs'
 import Contact from '../components/Contact';
 import LocationLinks from '../components/LocationLinks';
+import {PiDotFill} from 'react-icons/pi'
+
 // import Testimonials from '../components/Testimonials';
 // import LocationLinks from '../components/LocationLinks';
 // import ServicesGrid from '../components/ServicesGrid';
@@ -59,9 +61,9 @@ export default function Home() {
         <div className='test'>
         <h1 className='landing-header'><span className='header-color'>CLEO</span> Painting</h1>
         <h4 className='landing-subheader'>Elevate your homes appeal with the best Interior & Exterior Home Painting Contractor in Greenwich, Westport, Darien & surrounding towns in Fairfield County.</h4>
-        <div className='landing-location-div'>
+        {/* <div className='landing-location-div'>
           <MdLocationPin className='landing-location-icon'/> Fairfield County, CT
-        </div> 
+        </div>  */}
         <div className='landing-btns'>
         <Link href='/contact'><button type='button' className='landing-btn booking-btn'>Book Now</button></Link>
         <Link href='/about'><button type='button' className='landing-btn learn-btn'>Learn More</button></Link>
@@ -85,15 +87,16 @@ export default function Home() {
         <p className='about-paragraph-description'>
         Welcome to CLEO Painting, your trusted experts in 
         </p>
-        <ul>
-          <li>Exterior Painting</li>
-          <li>Interior Painting</li>
-          <li>Cabinet Painting</li>
-          <li>Roof Cleaning</li>
-          <li>Gutter Cleaning</li>
-          <li>Window Washing</li>
-          <li>Air Duct Cleaning</li>
-          <li>Dryer Vent Cleaning</li>
+        <ul className='about-page-menu'>
+        <li><PiDotFill className="about-menu-dot"></PiDotFill>Exterior Painting</li>
+          <li><PiDotFill className="about-menu-dot"></PiDotFill>Interior Painting</li>
+          <li><PiDotFill className="about-menu-dot"></PiDotFill>Cabinet Painting</li>
+          <li><PiDotFill className="about-menu-dot"></PiDotFill>Pressure Washing</li>
+          <li><PiDotFill className="about-menu-dot"></PiDotFill>Roof Cleaning</li>
+          <li><PiDotFill className="about-menu-dot"></PiDotFill>Gutter Cleaning</li>
+          <li><PiDotFill className="about-menu-dot"></PiDotFill>Window Washing</li>
+          <li><PiDotFill className="about-menu-dot"></PiDotFill>Air Duct Cleaning</li>
+          <li><PiDotFill className="about-menu-dot"></PiDotFill>Dryer Vent Cleaning</li>
           </ul>
           <p>
           At CLEO Painting, we take immense pride in providing painting services that not only meet but surpass your highest expectations. 

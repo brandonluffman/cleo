@@ -17,7 +17,23 @@
 .too {
     color:black;
 }
- 
+.about-page-menu {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+}
+
+.about-page-menu li {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.about-menu-dot {
+    font-size:2.5rem;
+    color:red;
+    fill:rgb(186, 166, 97);
+}
 
 .about-img-container {
         width:30%;
@@ -43,11 +59,12 @@
     }
     
     .about-paragraph {
-        display: flex;
+        /* display: flex; */
+        display: block;
     }
     .about-paragraph-content {
         font-size:1.5rem;
-        margin-bottom:2rem;
+        margin-bottom:0rem;
     }
     
     .about-paragraph-content-bold {

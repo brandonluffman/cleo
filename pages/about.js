@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 import Image from "next/image";
-
+import {PiDotFill} from 'react-icons/pi'
 const about = () => (
   <div>
        {/* <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-W3Q83E2JE3"/>
@@ -64,22 +64,22 @@ const about = () => (
        
        <div className='about-content-div'>
         <section className='about-paragraph'>
-          <h3 className='about-paragraph-content'><span className='header-color'>CLEO</span> Painting<br></br><br></br>
-          <b className='about-paragraph-content-bold'>Top Rated Home Painting & Exterior Cleaning Business in Fairfield County</b>
-          </h3>
+          <h1 className='about-paragraph-content'><span className='header-color'>CLEO</span> Painting</h1>
+          <h2 className='about-paragraph-content-bold'><b>Top Rated Home Painting & Exterior Cleaning Business in Fairfield County</b>
+          </h2>
         </section>
         <p className='about-paragraph-description'>
         Welcome to CLEO Painting, your trusted experts in 
         </p>
-        <ul>
-          <li>Exterior Painting</li>
-          <li>Interior Painting</li>
-          <li>Cabinet Painting</li>
-          <li>Roof Cleaning</li>
-          <li>Gutter Cleaning</li>
-          <li>Window Washing</li>
-          <li>Air Duct Cleaning</li>
-          <li>Dryer Vent Cleaning</li>
+        <ul className="about-page-menu">
+          <li><PiDotFill className="about-menu-dot"></PiDotFill>Exterior Painting</li>
+          <li><PiDotFill className="about-menu-dot"></PiDotFill>Interior Painting</li>
+          <li><PiDotFill className="about-menu-dot"></PiDotFill>Cabinet Painting</li>
+          <li><PiDotFill className="about-menu-dot"></PiDotFill>Roof Cleaning</li>
+          <li><PiDotFill className="about-menu-dot"></PiDotFill>Gutter Cleaning</li>
+          <li><PiDotFill className="about-menu-dot"></PiDotFill>Window Washing</li>
+          <li><PiDotFill className="about-menu-dot"></PiDotFill>Air Duct Cleaning</li>
+          <li><PiDotFill className="about-menu-dot"></PiDotFill>Dryer Vent Cleaning</li>
           </ul>
           <p>
           At CLEO Painting, we take immense pride in providing painting services that not only meet but surpass your highest expectations. 
@@ -91,7 +91,7 @@ const about = () => (
           {/* Exterior Painting, Interior Painting, Cabinet Painting, Pressure Washing, Roof Cleaning, Window Washing, Gutter Cleaning, Air Duct Cleaning & Dryer Vent cleaning. */}
         </p>
         <p className='about-paragraph-assist'>
-          <b>Exceeding Expectations: Elevating Your Home with Exceptional Painting Service</b>
+          <b>Exceeding Expectations: Elevating Your Home with Exceptional Exterior & Interior Painting Service</b>
         </p>
         <p className='about-paragraph-description'>
         At CLEO, we recognize that your home is not just a house; it&apos;s an embodiment of your style and an investment worth safeguarding. 

@@ -1,6 +1,7 @@
 .services-page-header {
-    margin-top:1rem;
-    margin-bottom:2rem;
+    text-align: left;
+    line-height:7vh;
+    padding-bottom:0.5rem;
 }
 .services-page-container {
     margin-bottom:6rem;
@@ -47,6 +48,11 @@
     margin-bottom:4rem;
 }
 
+.service-hr {
+    width:10%;
+    margin: 0 0;
+}
+
 .service-page-description {
     font-size:1rem;
     line-height: 6vh;
@@ -54,20 +60,32 @@
 
 .services-page-subheader {
     font-weight: 400;
-    font-size: 1.4rem;
-    margin-bottom:4rem;
-    text-align: center;
-    padding:0rem 4rem;
-
+    font-size: 1.2rem;
+    margin-bottom:8rem;
+    text-align: left;
     color:rgb(255, 255, 255);
+    line-height:5vh;
 }
 
 .service-page-headers {
-    padding:2rem 0rem 8rem 0rem;
-    text-align: center;
+    text-align: left;
     position: relative;
+    padding:0rem 2rem;
+    display: flex;
+    min-height:100vh;
+    padding-top:1rem;
 }
-
+.service-page-headers-div {
+    width:70%;
+}
+.service-page-img-div {
+    width:30%;
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    padding-top:6rem;
+    /* align-items: center; */
+}
 .structural-div {
     margin-bottom:2rem;
 }
@@ -98,8 +116,8 @@
     font-size: 1.2rem;
 }
 .headers-logo {
-    width:13%;
-    margin: 0rem 3rem;
+    width:50%;
+    margin:0 auto;
 }
 
 .included-desc {
@@ -147,6 +165,8 @@
     transition:0.2s all ease;
     box-shadow:1px 3px 20px rgb(0, 0, 0);
     cursor:pointer;
+    display: flex;
+    align-items: center;
 }
 
 .services-page-btn:hover {
@@ -218,15 +238,13 @@
     }
 
     .services-page-subheader {
-        font-size: 1.2rem;
         padding:0;
-        margin-bottom:2rem;
- 
+        margin-bottom:6rem;
+        font-size:1rem;
+        line-height:4vh;
     }
-
     .cert-logo {
-
-        width:12%;
+    width:12%;
       text-align: left !important;
       margin:0rem 1rem;
       margin-bottom:2rem;
@@ -240,14 +258,28 @@
     .services-container {
         padding:0rem 1rem;
     }
-
-    .services-page-subheader {
+    .services-page-header {
+        line-height: 6vh;
+        font-size:2rem;
+    }
+    .service-page-headers {
+        display: block;
+    }
+    .service-page-headers-div {
+        width:100%;
+    }
+    .service-page-img-div {
+        width:100%;
+        position: absolute;
+        bottom:200px;
+        right:-200px;
         display: none;
     }
 
-    .services-page-header {
-        line-height: 7vh;
+    .services-page-btn {
+        margin-left:0rem;
     }
+    
 }
 
 @media (max-width: 900px) {
@@ -266,12 +298,12 @@
 
 @media (max-width: 500px) {
     .services-page-header {
-        font-size: 2.5rem;
         line-height: 5vh;
-        margin-bottom:6rem;
+        margin-bottom:1rem;
     }
     .service-page-headers {
         padding-top:0;
+        padding:0rem 1rem;
     }
     .services-page-btn {
         margin-bottom:4rem;
@@ -279,5 +311,12 @@
     .arrow {
         left:40%;
         bottom:70px;
+    }
+    .services-page-subheader {
+        margin-bottom:3rem;
+        font-size:0.9rem;
+    }
+    .services-page-btn {
+        font-size:1rem;
     }
 }

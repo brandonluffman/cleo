@@ -11,10 +11,10 @@ const Footer = () => {
       <div className='footer-brand-div'>
       <img src='/logo.png' className='footer-img' alt='Brand Logo'></img>
       <div className='footer-socials'>
-      <FaInstagram className='footer-social instagram-icon'/>
-      <BsFacebook className='footer-social facebook-icon'/>
-      <BsLinkedin className='footer-social linkedin-icon' />
-      <BsTwitter className='footer-social twitter-icon'/>
+      {/* <FaInstagram className='footer-social instagram-icon'/> */}
+      <Link href='https://facebook.com/cleopainting' rel='no-referrer' target='_blank'><BsFacebook className='footer-social facebook-icon'/></Link>
+      {/* <BsLinkedin className='footer-social linkedin-icon' />
+      <BsTwitter className='footer-social twitter-icon'/> */}
       </div>
       </div>
       <div className='footer-links-container'>

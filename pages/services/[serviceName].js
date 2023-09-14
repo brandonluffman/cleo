@@ -59,6 +59,7 @@ export default function Service({ service }) {
                     </div>
                     <div className="service-description-div">
                         <h1 className="service-title">{service.Name}</h1>
+                        <hr className="service-hr"></hr>
                         <p className="service-description">{service.Text}</p>
                     </div>
                 </div>

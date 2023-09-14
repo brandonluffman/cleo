@@ -7,6 +7,7 @@ import { FaRegDotCircle } from 'react-icons/fa';
 import serviceInfo from "./api/services";
 import ServicesGrid from "../components/ServicesGrid";
 import {BsArrowDownShort} from 'react-icons/bs'
+import { AiOutlineSchedule } from "react-icons/ai";
 const services = ({ services }) => {
   return (
     <div>
@@ -49,15 +50,28 @@ const services = ({ services }) => {
       <Navbar />
       <div className='services-page-container'>
         <div className="service-page-headers">
-        <img src='/logo.png' className="headers-logo" alt='Brand Logo'></img>
-        <h1 className='container-header services-page-header'><span className='color-change'>Exterior & Interior Home Painting & Cleaning</span> Services in <span className='color-change'>Connecticut</span></h1>
-        <h3 className='services-page-subheader'>CLEO Painting offers a variety of inspections in Fairfield & Litchfield County, CT. Whether you&apos;re looking to test the radon or do a full home inspection, Gold Shield has you covered.</h3>
+          <div className="service-page-headers-div">
+                  <h1 className='container-header services-page-header'>Turn to <span className="color-change">CLEO Painting</span> for your Exterior & Interior Home Painting Needs</h1>
+        <h3 className='services-page-subheader'>
+          CLEO Painting is your trusted partner for a wide range of home improvement services in the picturesque Fairfield County, CT areas. 
+        Our commitment to excellence extends beyond painting, encompassing a comprehensive array of inspection, repair & cleaning services designed to ensure the safety and quality of your home.
+        </h3>
+        <button  type='btn' className="services-page-btn">
+          Book Appointment <AiOutlineSchedule className="nav-contact-btn-icon" />
+        </button>
+        </div>
+        <div className="service-page-img-div">
+        <img src='/roller.png' className="headers-logo"></img>
+
+                {/* <img src='/exterior-job.webp' className="headers-logo" alt='Brand Logo'></img> */}
+                </div>
+
         {/* <div>
           <img src='/exterior.jpeg' className="cert-logo" alt='Home Inspection Certification'></img>
           <img src='/exterior.jpeg' className="cert-logo" alt='Home Inspection Certification'></img>
         </div> */}
-        <Link href='/contact' className="service-page-btn-link"><button className="services-page-btn">Book Appoinment</button></Link>
-        <div class="arrow bounce"><BsArrowDownShort className="bounce-arrow-icon"/></div>
+        {/* <Link href='/contact' className="service-page-btn-link"><button className="services-page-btn">Book Appoinment</button></Link> */}
+        {/* <div class="arrow bounce"><BsArrowDownShort className="bounce-arrow-icon"/></div> */}
         </div>
         <ServicesGrid />
       </div>
