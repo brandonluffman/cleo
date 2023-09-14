@@ -108,7 +108,7 @@ export default function Home() {
           {/* Exterior Painting, Interior Painting, Cabinet Painting, Pressure Washing, Roof Cleaning, Window Washing, Gutter Cleaning, Air Duct Cleaning & Dryer Vent cleaning. */}
         </p>
         <p className='about-paragraph-assist'>
-          <b>Exceeding Expectations: Elevating Your Home with Exceptional Painting Service</b>
+          <b>Exceeding Expectations: Elevating Your Home with Exceptional Exterior & Interior Painting Service</b>
         </p>
         <p className='about-paragraph-description'>
         At CLEO, we recognize that your home is not just a house; it&apos;s an embodiment of your style and an investment worth safeguarding. 

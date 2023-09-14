@@ -130,8 +130,8 @@ const Contact = () => {
     /> */}
       <div className='quote-price'>
         <h1 className='quote-price-header'>Estimated Cost</h1>
-        <h3 className='quote-price-estimate'>${quote}</h3> {/* Display the stored quote */}
-        <button className='quote-btn' type="button" onClick={calculateQuote}>Calculate Quote</button>
+        <h3 className='quote-price-estimate'>${propertySize * 0.5}</h3> {/* Display the stored quote */}
+        {/* <button className='quote-btn' type="button" onClick={calculateQuote}>Calculate Quote</button> */}
         <div className='quote-project-details'>
           <div>
           <h4>Square Footage</h4>

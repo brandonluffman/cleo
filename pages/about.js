@@ -75,6 +75,7 @@ const about = () => (
           <li><PiDotFill className="about-menu-dot"></PiDotFill>Exterior Painting</li>
           <li><PiDotFill className="about-menu-dot"></PiDotFill>Interior Painting</li>
           <li><PiDotFill className="about-menu-dot"></PiDotFill>Cabinet Painting</li>
+          <li><PiDotFill className="about-menu-dot"></PiDotFill>Pressure Washing</li>
           <li><PiDotFill className="about-menu-dot"></PiDotFill>Roof Cleaning</li>
           <li><PiDotFill className="about-menu-dot"></PiDotFill>Gutter Cleaning</li>
           <li><PiDotFill className="about-menu-dot"></PiDotFill>Window Washing</li>
