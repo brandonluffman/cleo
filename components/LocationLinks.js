@@ -12,7 +12,7 @@ const LocationLinks = () => {
           <div className='county-locations'>
                      {serviceTowns.slice(0,28).map((town) => (
               <div className='location-link' key={town.Id}>
-                <Link className='location-link' href={`/locations/${town.Town.toLowerCase()}`}><h4 className='location-town'><MdLocationPin className='location-icon'/> {town.Town}</h4></Link>
+                <Link className='location-link' href={`/locations/${town.Town.toLowerCase().replace(/\s+/g, '-')}`}><h6 className='location-town'><MdLocationPin className='location-icon'/> {town.Town}</h6></Link>
               </div>
             ))}
           </div>

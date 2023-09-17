@@ -35,8 +35,8 @@ export default function Home() {
         }}
         /> */}
     <Head>
-          <title>CLEO Painting | Top Exterior & Interior Home Painters</title>
-          <meta name="description" content="CLEO Painting: Unparalleled Exterior and Interior Painting expertise serving all of Fairfield County and surrounding areas."/>
+          <title>CLEO Handyman | Top Handyman Services in Fairfield County</title>
+          <meta name="description" content="CLEO Handyman: Unparalleled Handyman expertise serving all of Fairfield County and surrounding areas."/>
           <meta charSet="utf-8" />
           <meta name="robots" content="index, follow" />
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -44,13 +44,13 @@ export default function Home() {
           <link rel="apple-touch-icon" href="/favicon.png" /> 
           <link rel="canonical" href="https://cleoexteriors.com/"/>
           <meta property="og:type" content="article" />
-          <meta property="og:title" content="CLEO Painting" />
-          <meta property="og:description" content="CLEO Painting: Unparalleled Exterior and Interior Painting expertise serving all of Fairfield County and surrounding areas." />
+          <meta property="og:title" content="CLEO Handyman" />
+          <meta property="og:description" content="CLEO Handyman: Unparalleled Handyman expertise serving all of Fairfield County and surrounding areas." />
           <meta property="og:image" content="/favicon.png" />
           <meta property="og:url" content="cleoexteriors.com" />
-          <meta property="og:site_name" content="CLEO Painting" />
-          <meta name="twitter:title" content="CLEO Painting" />
-          <meta name="twitter:description" content="CLEO Painting: Unparalleled Exterior and Interior Painting expertise serving all of Fairfield County and surrounding areas." />
+          <meta property="og:site_name" content="CLEO Handyman" />
+          <meta name="twitter:title" content="CLEO Handyman" />
+          <meta name="twitter:description" content="CLEO Handyman: Unparalleled Handyman expertise serving all of Fairfield County and surrounding areas." />
           <meta name="twitter:image" content="/favicon.png" />
           <meta name="twitter:site" content="@USERNAME" />
           <meta name="twitter:creator" content="@USERNAME" />
@@ -59,8 +59,10 @@ export default function Home() {
       <Navbar />
       <div className='landing-container'>
         <div className='test'>
-        <h1 className='landing-header'><span className='header-color'>CLEO</span> Painting</h1>
-        <h4 className='landing-subheader'>Elevate your homes appeal with the best Interior & Exterior Home Painting Contractor in Greenwich, Westport, Darien & surrounding towns in Fairfield County.</h4>
+        <h1 className='landing-header'><span className='header-color'>CLEO</span> Handyman</h1>
+        <h4 className='landing-subheader'>
+          Discover the ultimate convenience with our trusted handyman services in Greenwich, Westport, Darien & surrounding towns in Fairfield County. 
+        From quick fixes to home renovations, we&apos;re your go-to team for all your household needs, ensuring your space stays in tip-top shape.</h4>
         {/* <div className='landing-location-div'>
           <MdLocationPin className='landing-location-icon'/> Fairfield County, CT
         </div>  */}
@@ -80,12 +82,12 @@ export default function Home() {
         </div>
         <div className='about-content-div'>
         <section className='about-paragraph'>
-          <h3 className='about-paragraph-content'><span className='header-color'>CLEO</span> Painting<br></br><br></br>
-          <b className='about-paragraph-content-bold'>Top Rated Home Painting & Exterior Cleaning Business in Fairfield County</b>
+          <h3 className='about-paragraph-content'><span className='header-color'>CLEO</span> Handyman<br></br><br></br>
+          <b className='about-paragraph-content-bold'>Transform your home with our expert handyman services in Fairfield County</b>
           </h3>
         </section>
         <p className='about-paragraph-description'>
-        Welcome to CLEO Painting, your trusted experts in 
+        Welcome to CLEO Handyman, your trusted experts in 
         </p>
         <ul className='about-page-menu'>
         <li><PiDotFill className="about-menu-dot"></PiDotFill>Exterior Painting</li>
@@ -99,12 +101,12 @@ export default function Home() {
           <li><PiDotFill className="about-menu-dot"></PiDotFill>Dryer Vent Cleaning</li>
           </ul>
           <p>
-          At CLEO Painting, we take immense pride in providing painting services that not only meet but surpass your highest expectations. 
+          At CLEO Handyman, we take immense pride in providing comprehensive home maintenance solutions that not only meet but surpass your highest expectations. 
           With a wealth of experience and an unwavering commitment to excellence, our talented team goes the extra mile to rejuvenate and enhance your home&apos;s interior and exterior. 
-          From meticulously prepping surfaces and applying premium paints to delivering flawlessly smooth finishes, we approach every painting project with precision and meticulous attention to detail. 
+          From tackling various tasks, whether it&apos;s repairing, renovating, or upgrading, we approach every project with precision and meticulous attention to detail. 
           What distinguishes us is our steadfast dedication to achieving remarkable outcomes that truly shine. 
-          Whether your property requires a complete transformation, a fresh color palette, or a simple touch-up, we possess the expertise to tackle projects of any scope. 
-          Our commitment to using the finest materials and staying at the forefront of industry techniques guarantees outstanding and enduring results that will beautify your home for years to come.
+          Whether your property requires a complete transformation, a functional upgrade, or routine maintenance, we possess the expertise to tackle projects of any scope. 
+          Our commitment to using the finest materials and staying at the forefront of industry techniques guarantees outstanding and enduring results that will enhance your home for years to come.
           {/* Exterior Painting, Interior Painting, Cabinet Painting, Pressure Washing, Roof Cleaning, Window Washing, Gutter Cleaning, Air Duct Cleaning & Dryer Vent cleaning. */}
         </p>
         <p className='about-paragraph-assist'>
@@ -177,7 +179,7 @@ export default function Home() {
       <p className='container-header locations-header'>Locations</p>
       <div className='locations-container-wrapper'>
       <div className='location-img-container'>
-        <h2 className='location-description-header'>Top Fairfield County House Painters & Exterior Cleaning</h2>
+        <h2 className='location-description-header'>Top Handyman Services in Fairfield County</h2>
         <p className='location-description'>
           We proudly serve all areas of Fairfield County, CT, including Westport, Wilton, Weston, Darien, New Canaan, Greenwich, and surrounding communities.
          No matter where you are located in the county, we will bring our expertise to your doorstep. 
@@ -209,7 +211,7 @@ export default function Home() {
           </div>
           <div className='testimonial-div-item'>
             <img className='testimonial-img' src='/profile-2.jpeg' width='50' alt='Testimonial Profile Picture'></img>
-            <p className='testimonial-content'>CLEO Painting has consistently worked for us for many years now!! They give a fair price and always do a very professional job! I&apos;m always amazed at how clear our windows and how fresh our house looks after they leave!! Wish I could give them 6 stars!!!</p>
+            <p className='testimonial-content'>CLEO Handyman has consistently worked for us for many years now!! They give a fair price and always do a very professional job! I&apos;m always amazed at how clear our windows and how fresh our house looks after they leave!! Wish I could give them 6 stars!!!</p>
             <h2 className='testimonial-name'>Melinda Gracie</h2>
             <p className='testimonial-date'>06/14/23</p>
           </div>

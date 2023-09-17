@@ -61,7 +61,10 @@ const services = ({ services }) => {
         </button>
         </div>
         <div className="service-page-img-div">
-        <img src='/roller.png' className="headers-logo"></img>
+        {/* <img src='/roller.png' className="headers-logo"></img> */}
+        {/* <img src='/exterior-paint-job.webp' className="headers-logo h-logo-1"></img>
+        <img src='/cabinet-finishing.jpeg' className="headers-logo h-logo-2"></img> */}
+
 
                 {/* <img src='/exterior-job.webp' className="headers-logo" alt='Brand Logo'></img> */}
                 </div>

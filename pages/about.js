@@ -62,12 +62,14 @@ const about = () => (
         </div>
         </div> */}
        
-       <div className='about-content-div'>
+       <div className='about-content-div about-page-content-div'>
         <section className='about-paragraph'>
           <h1 className='about-paragraph-content'><span className='header-color'>CLEO</span> Painting</h1>
           <h2 className='about-paragraph-content-bold'><b>Top Rated Home Painting & Exterior Cleaning Business in Fairfield County</b>
           </h2>
         </section>
+
+        <img className='about-paragraph-img' src='/home-exterior-work.jpeg'></img>
         <p className='about-paragraph-description'>
         Welcome to CLEO Painting, your trusted experts in 
         </p>
@@ -91,6 +93,8 @@ const about = () => (
           Our commitment to using the finest materials and staying at the forefront of industry techniques guarantees outstanding and enduring results that will beautify your home for years to come.
           {/* Exterior Painting, Interior Painting, Cabinet Painting, Pressure Washing, Roof Cleaning, Window Washing, Gutter Cleaning, Air Duct Cleaning & Dryer Vent cleaning. */}
         </p>
+        <img className='about-paragraph-img about-p-img-2' src='/interior-paint-job.jpeg'></img>
+
         <p className='about-paragraph-assist'>
           <b>Exceeding Expectations: Elevating Your Home with Exceptional Exterior & Interior Painting Service</b>
         </p>

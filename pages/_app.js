@@ -11,6 +11,7 @@ import '../styles/locations.css'
 import '../styles/locationlinks.css'
 import '../styles/location.css'
 import '../styles/service.css'
+import '../styles/four.css'
 
 
 function MyApp({ Component, pageProps }) {
